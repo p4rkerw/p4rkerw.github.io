@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "aqua", "contrast", "dark", "dirt", "neon", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wilson Laboratory<br>Kidney Disease Research"
+title                    : "Wilson Laboratory"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Kidney Disease Research"
 name                     : "Dr. Parker C. Wilson MD, PhD"
 description              : ""
 url                      : "https://p4rkerw.github.io"
