@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Parker C. Wilson MD, PhD"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/53058914?s=400&u=c7cdc428e0b7105a07f868bfc49155d38aa820fb&v=4"
   bio              : "Renal and Molecular Pathology"
   location         : "Washington University in St. Louis, MO, USA"
   email            : parkerw@wustl.edu
@@ -134,21 +134,15 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: https://twitter.com/parkercwilson
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
       # url:
 
 
