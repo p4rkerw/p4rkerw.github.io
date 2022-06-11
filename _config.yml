@@ -14,10 +14,6 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-header:
-  image                  : "/assets/images/banner.png"
-  overlay_filter         : 0.5
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Wilson Laboratory"
@@ -28,7 +24,7 @@ description              : ""
 url                      : "https://p4rkerw.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/banner.png"
+teaser                   : #
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -286,6 +282,8 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+    header:
+      image: "/assets/images/banner.png"
   - scope:
       path: ""
       type: posts
