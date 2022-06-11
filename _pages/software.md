@@ -1,6 +1,6 @@
 ---
 title: "Software"
-layout: gridlay
+layout: home
 sitemap: false
 permalink: /software/
 author_profile: true
