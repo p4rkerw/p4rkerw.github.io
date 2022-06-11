@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: gridlay
+layout: home
 sitemap: false
 permalink: /publications/
 author_profile: true
