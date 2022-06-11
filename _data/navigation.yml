@@ -4,8 +4,8 @@ main:
      url: /about/
    - title: "Publications"
      url: /publications/
-   - title: "Lab Members"
-     url: /labmembers/
+   #- title: "Lab Members"
+   #  url: /labmembers/
    - title: "Software"
      url: /software/
    - title: "News"
