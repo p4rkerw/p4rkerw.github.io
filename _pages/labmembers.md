@@ -1,6 +1,6 @@
 ---
 title: "Lab Members"
-layout: gridlay
+layout: home
 sitemap: false
 permalink: /labmembers/
 ---
