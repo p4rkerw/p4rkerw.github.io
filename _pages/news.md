@@ -1,6 +1,6 @@
 ---
 title: "News"
-layout: gridlay
+layout: home
 sitemap: false
 permalink: /news/
 author_profile: true
