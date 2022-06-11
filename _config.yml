@@ -14,9 +14,6 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-intro: 
-  - excerpt: 'Single cell sequencing and spatial transcriptomics in kidney disease research `type="center"`'
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Wilson Laboratory"
