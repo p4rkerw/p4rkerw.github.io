@@ -1,3 +1,4 @@
+---
 title: "Welcome to the Wilson Laboratory"
 layout: splash
 permalink: /splash-page/
@@ -9,3 +10,4 @@ header:
     - label: "Download"
       url: "#test-link"
 excerpt: "Single cell sequencing in kidney disease"
+---
