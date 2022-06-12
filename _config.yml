@@ -114,6 +114,7 @@ author:
   location         : "St. Louis, MO, USA"
   googlescholar    : "https://scholar.google.com/citations?user=2bYknIUAAAAJ&hl=en&oi=ao"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=parker+wilson"
+  orcid            : "https://orcid.org/0000-0001-8647-9662"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
