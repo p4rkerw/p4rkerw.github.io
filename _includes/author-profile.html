@@ -10,10 +10,6 @@
       </a>
     </div>
   {% endif %}
-  
-  {% if author.googlescholar %}
-    <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
-  {% endif %}
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
@@ -72,6 +68,22 @@
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      {% endif %}
+      
+      {% if author.googlescholar %}
+        <li>
+          <a href="{{ author.googlescholar }}">
+            <i class="fas fa-fw fa-graduation-cap"></i> Google Scholar
+          </a>
+        </li>
+      {% endif %}
+      
+      {% if author.pubmed %}
+        <li>
+          <a href="{{ author.pubmed }}">
+            <i class="fas fa-fw fa-graduation-cap"></i> Pubmed
           </a>
         </li>
       {% endif %}
