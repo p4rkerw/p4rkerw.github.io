@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "aqua", "contrast", "dark", "dirt", "neon", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wilson Laboratory"
+title                    : "Wilson Lab"
 title_separator          : "-"
 subtitle                 : "Kidney Disease Research"
-name                     : "Parker Wilson MD, PhD"
+name                     : "Dr. Parker C. Wilson MD, PhD"
 description              : ""
 url                      : "https://p4rkerw.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
