@@ -10,4 +10,5 @@ Different cell types express different genes that determine their unique functio
 
 | ![umap.png](/assets/images/umap.png) |
 |:--:|
-| <b>Single cell RNA sequencing in the kidney cortex</b>|
+| <b>Single cell RNA sequencing in the kidney cortex - Cells are grouped by their expression patterns. </b>|
+
