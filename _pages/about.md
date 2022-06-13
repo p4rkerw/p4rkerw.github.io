@@ -6,4 +6,4 @@ permalink: /about/
 author_profile: true
 ---
 
-![Alt text](assets/images/umap.pn "Single Cell RNA Sequencing of Kidney Cortex")
+![Alt text](assets/images/umap.png "Single Cell RNA Sequencing of Kidney Cortex")
