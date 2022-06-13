@@ -13,3 +13,7 @@ Different cell types express different genes that determine their unique functio
 | <b>Single cell RNA sequencing in the kidney cortex - Cells are grouped by expression pattern. </b>|
 
 Chronic kidney disease (CKD) is characterized by worsening kidney function. Diabetes is the leading cause of CKD and there is a need for new therapies to prevent or slow diabetic kidney disease (DKD) progression. Single cell sequencing can identify early changes in DKD that are limited to a single cell type or nephron segment. Targeting these cell-specific pathways may help to improve glycemic control and slow disease progression.     
+
+| ![histology.png](/assets/images/histology.png) |
+|:--:|
+| <b>Increased fibrosis in a patient with CKD. </b>|
