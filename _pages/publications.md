@@ -1,7 +1,14 @@
 ---
-title: "Publications"
+title: "Selected Publications"
 layout: home
 sitemap: false
 permalink: /publications/
 author_profile: true
 ---
+## [Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney](https://pubmed.ncbi.nlm.nih.gov/33850129/) <br>
+### Muto and Wilson et al. Nature Communications 2021 <br>
+The integration of single cell transcriptome and chromatin accessibility datasets enables a deeper understanding of cell heterogeneity. We performed single nucleus ATAC (snATAC-seq) and RNA (snRNA-seq) sequencing to generate paired, cell-type-specific chromatin accessibility and transcriptional profiles of the adult human kidney. We demonstrate that snATAC-seq is comparable to snRNA-seq in the assignment of cell identity and can further refine our understanding of functional heterogeneity in the nephron. The majority of differentially accessible chromatin regions are localized to promoters and a significant proportion are closely associated with differentially expressed genes. Cell-type-specific enrichment of transcription factor binding motifs implicates the activation of NF-κB that promotes VCAM1 expression and drives transition between a subpopulation of proximal tubule epithelial cells. Our multi-omics approach improves the ability to detect unique cell states within the kidney and redefines cellular heterogeneity in the proximal tubule and thick ascending limb.
+
+## [The single-cell transcriptomic landscape of early human diabetic nephropathy](https://pubmed.ncbi.nlm.nih.gov/31506348/)<br>
+### Wilson et al. PNAS 2019<br>
+Diabetic nephropathy is characterized by damage to both the glomerulus and tubulointerstitium, but relatively little is known about accompanying cell-specific changes in gene expression. We performed unbiased single-nucleus RNA sequencing (snRNA-seq) on cryopreserved human diabetic kidney samples to generate 23,980 single-nucleus transcriptomes from 3 control and 3 early diabetic nephropathy samples. All major cell types of the kidney were represented in the final dataset. Side-by-side comparison demonstrated cell-type-specific changes in gene expression that are important for ion transport, angiogenesis, and immune cell activation. In particular, we show that the diabetic thick ascending limb, late distal convoluted tubule, and principal cells all adopt a gene expression signature consistent with increased potassium secretion, including alterations in Na+/K+-ATPase, WNK1, mineralocorticoid receptor, and NEDD4L expression, as well as decreased paracellular calcium and magnesium reabsorption. We also identify strong angiogenic signatures in glomerular cell types, proximal convoluted tubule, distal convoluted tubule, and principal cells. Taken together, these results suggest that increased potassium secretion and angiogenic signaling represent early kidney responses in human diabetic nephropathy.
