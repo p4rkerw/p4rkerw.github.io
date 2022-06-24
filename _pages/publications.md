@@ -4,6 +4,15 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 ## [Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney](https://pubmed.ncbi.nlm.nih.gov/33850129/) <br>
 ### Muto and Wilson et al. Nature Communications 2021 <br>
