@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: home
+layout: splash
 sitemap: false
 permalink: /about/
 author_profile: true
