@@ -1,10 +1,32 @@
 ---
+layout: archive
 title: "Selected Publications"
-layout: home
-sitemap: false
 permalink: /publications/
 author_profile: true
 ---
+{% include base_path %}
+
+<!---You can find the complete publication list on <a href="https://scholar.google.co.uk/citations?user=-peQ4ZsAAAAJ&hl=en">
+<span style="color:gray">my Google Scholar profile</span></a>. A complete list of bio<font color="red">R</font>xiv preprints on <a href="https://rxivist.org/authors/204048">
+<span style="color:gray">my Rxivist profile</span></a>.--->
+
+<ul style="margin:0;padding:0">
+{% for post in site.publications reversed %}
+
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
+    <ul style="margin:0;padding:0">
+    {% assign date = currentdate %}
+  {% endif %}
+  {% if post.authors contains 'Giuseppe Vicidomini' %}
+    {% include archive-single-pub.html %}
+  {% endif %}
+  {% if forloop.last %}</ul>{% endif %}
+
+{% endfor %}
+
 ## [Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney](https://pubmed.ncbi.nlm.nih.gov/33850129/) <br>
 ### Muto and Wilson et al. Nature Communications 2021 <br>
 The integration of single cell transcriptome and chromatin accessibility datasets enables a deeper understanding of cell heterogeneity. We performed single nucleus ATAC (snATAC-seq) and RNA (snRNA-seq) sequencing to generate paired, cell-type-specific chromatin accessibility and transcriptional profiles of the adult human kidney. We demonstrate that snATAC-seq is comparable to snRNA-seq in the assignment of cell identity and can further refine our understanding of functional heterogeneity in the nephron. The majority of differentially accessible chromatin regions are localized to promoters and a significant proportion are closely associated with differentially expressed genes. Cell-type-specific enrichment of transcription factor binding motifs implicates the activation of NF-κB that promotes VCAM1 expression and drives transition between a subpopulation of proximal tubule epithelial cells. Our multi-omics approach improves the ability to detect unique cell states within the kidney and redefines cellular heterogeneity in the proximal tubule and thick ascending limb.
