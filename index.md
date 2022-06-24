@@ -8,7 +8,6 @@ intro:
 ---
 {% include feature_row id="intro" type="center" %}
 
-| ![histology.png](/assets/images/histology.png) |
 ![single_cell_overview](assets/images/single_cell_overview.png)
 
 
