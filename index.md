@@ -9,6 +9,12 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 <br>
+
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
  
 | ![single_cell_overview](assets/images/single_cell_overview.png) |
 |:--:| 
