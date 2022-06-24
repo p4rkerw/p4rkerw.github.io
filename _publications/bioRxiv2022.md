@@ -6,7 +6,7 @@ venue: 'bioRxiv'
 authors: 'Parker C. Wilson, Yoshiharu Muto, Haojia Wu, Anil Karihaloo, Sushrut S. Waikar, Benjamin D. Humphreys'
 paperurl: https://www.biorxiv.org/content/10.1101/2022.01.28.478204v1
 doi: 10.1101/2022.01.28.478204
-tagline: '- Paper'
+tagline: ''
 type: 'bioRxiv'
 ---
 
