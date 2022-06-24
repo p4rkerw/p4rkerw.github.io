@@ -12,7 +12,7 @@ intro:
 
 <style scoped>
 table {
-  font-size: 14px;
+  font-size: 18px;
 }
 </style>
 | ![single_cell_overview](assets/images/single_cell_overview.png) |
