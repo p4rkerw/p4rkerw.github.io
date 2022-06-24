@@ -28,10 +28,10 @@
     <tr>
       <td width="10%" style="border: none;">
       {% if post.venue == "bioRxiv" %}
-        <img src="{{ "cover_bioRxiv.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+        <img src="{{ "cover_bioRxiv.jpg" | prepend: "/assets/images/" | prepend: base_path }}" alt="">
        {% elsif post.venue == "Sci. Rep." %}
-      {% elsif post.venue == "Nat. Comm." %}
-        <img src="{{ "cover_ncomm.jpg" | prepend: "/images/" | prepend: base_path }}" alt="">
+      {% elsif post.venue == "Nature Communications" %}
+        <img src="{{ "cover_ncomm.jpg" | prepend: "/assets/images/" | prepend: base_path }}" alt="">
       {% endif %}
       </td>
 
