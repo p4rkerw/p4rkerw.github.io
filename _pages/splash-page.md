@@ -9,5 +9,5 @@ header:
   actions:
     - label: "Download"
       url: "#test-link"
-excerpt: "Single cell sequencing in kidney disease"
+excerpt: ""
 ---
