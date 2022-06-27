@@ -1,10 +1,16 @@
 ---
+layout: archive
 title: "Software and Repositories"
-layout: home
-sitemap: false
 permalink: /software/
 author_profile: true
 ---
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single-software.html %}
+{% endfor %}
+
 
 # [**🌶️SALSA! Single Cell Allele Specific Analysis**](https://github.com/p4rkerw/SALSA) <br>
 SALSA is a workflow for genotyping, phasing, mapping bias correction, and single cell allele-specific counting of single cell RNA and ATAC datasets.
