@@ -26,16 +26,7 @@
   {% endif %}
 
     <tr>
-      <td width="10%" style="border: none;">
-      {% if post.venue == "bioRxiv" %}
-        <img src="{{ "cover_bioRxiv.jpg" | prepend: "/assets/images/" | prepend: base_path }}" alt="">
-       {% elsif post.venue == "Sci. Rep." %}
-      {% elsif post.venue == "Nature Communications" %}
-        <img src="{{ "cover_ncomm.jpg" | prepend: "/assets/images/" | prepend: base_path }}" alt="">
-      {% endif %}
-      </td>
-
-        <td width="80%" style="border: none;">
+        <td width="90%" style="border: none;">
 
           <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
             {% if post.link %}
