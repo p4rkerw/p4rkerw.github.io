@@ -79,7 +79,7 @@
             <br><span style="font-size:0.85em; line-height: 0.5;"><i>{{ author_names }}</i></span><br>
           {% endif %}
 
-          {% if post.collection == 'publications' %}
+          {% if post.collection == 'software' %}
           <span style="font-size:0.8em; line-height: 0.5;"><b>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
           {% endif %}
 
