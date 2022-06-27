@@ -12,4 +12,4 @@ type: 'GitHub'
 
 <h2> Abstract </h2>
 <p align= "justify">
-Here you will find analysis scripts for our manuscript where we integrate paired snRNAseq and snATACseq from 5 healthy adult kidney cortex samples
+Muto and Wilson et al. Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney
