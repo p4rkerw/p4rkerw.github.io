@@ -6,7 +6,7 @@ venue: 'bioRxiv'
 authors: 'Parker C. Wilson'
 paperurl: https://pubmed.ncbi.nlm.nih.gov/31506348/
 doi: https://doi.org/10.1101/2022.01.28.478204
-tagline: ''
+tagline: 'SALSA is a workflow for genotyping, phasing, mapping bias correction, and single cell allele-specific counting of single cell RNA and ATAC datasets'
 type: 'GitHub'
 ---
 
