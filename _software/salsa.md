@@ -1,5 +1,5 @@
 ---
-title: "Single Cell Allele-Specific Analysis"
+title: "Single Cell Allele-Specific Analysis (🌶️SALSA)"
 collection: software
 date: 2022-01-28
 venue: 'bioRxiv'
