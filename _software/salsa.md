@@ -1,8 +1,8 @@
 ---
 title: "🌶️SALSA - Single Cell Allele-Specific Analysis"
 collection: software
-date: 2022-01-28
-venue: 'bioRxiv'
+date: 2022-09-06
+venue: 'Nature Communications'
 authors: 'Parker C. Wilson'
 paperurl: https://pubmed.ncbi.nlm.nih.gov/31506348/
 repourl: https://github.com/p4rkerw/SALSA
