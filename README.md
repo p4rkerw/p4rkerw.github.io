@@ -1,5 +1,5 @@
 # Parker's notes for updating the website:
-Splash page layout - _pages/splash-page.md </br>
+Splash page layout - _layouts/splash.html </br>
 Splash page content - index.md
 
 
