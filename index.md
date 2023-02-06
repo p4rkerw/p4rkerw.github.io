@@ -26,3 +26,6 @@ intro:
 |:--:| 
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression. |
 
+# Join the Lab!
+The Wilson laboratory is always looking for talented researchers and collaborators to join our team! Please send us an email or find us on social media to connect with the lab. We also have a list of open positions on our website.
+
