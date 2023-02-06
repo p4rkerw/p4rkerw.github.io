@@ -7,6 +7,7 @@ intro:
   - excerpt: 'There are an estimated 700 million people living with chronic kidney disease (CKD). The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for CKD.'
 ---
 
+img{background-color:white}
 {% include feature_row id="intro" type="center" %}
 # Single Cell Multiomics
 
@@ -21,7 +22,6 @@ intro:
 | Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers. |
 
 # Spatial Profiling
-
 | ![visium_clusters](assets/images/visium_clusters.png) |
 |:--:| 
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression. |
