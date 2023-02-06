@@ -21,7 +21,7 @@ intro:
 | Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers. |
 
 # Spatial Profiling
-| ![visium_clusters](assets/images/visium_clusters.png){background-color:white} |
+| ![visium_clusters](assets/images/visium_clusters.png) |
 |:--:| 
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression. |
 
