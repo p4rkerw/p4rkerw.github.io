@@ -1,6 +1,7 @@
 # Parker's notes for updating the website:
 Splash page layout (Landing homepage) - _layouts/splash.html </br>
 Splash page content (Landing homepage) - index.md
+Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately.
 
 
 
