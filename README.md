@@ -1,6 +1,6 @@
 # Parker's notes for updating the website:
-Splash page layout - _layouts/splash.html </br>
-Splash page content - index.md
+Splash page layout (Landing homepage) - _layouts/splash.html </br>
+Splash page content (Landing homepage) - index.md
 
 
 
