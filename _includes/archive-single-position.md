@@ -1,0 +1,115 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+  {% if post.tagline contains 'Paper, Corresponding author' %}
+  <table style="border:1px dotted black;">
+  {% elsif post.tagline contains 'Preprint, Corresponding author' %}
+  <table style="border:1px dotted black;">
+  {% else %}
+  <table style="border:1px dotted black;">
+  {% endif %}
+    <tr>
+        <td width="90%" style="border: none;">
+
+          <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
+            {% if post.link %}
+              <a href="{{ post.repourl }}">{{ title }}</a>
+            {% else %}
+              <a href="{{ post.repourl }}">{{ title }}</a>
+            {% endif %}
+            
+          </span>
+
+          {% if post.authors %}
+            {% assign authors = post.authors | split: ", " %}
+            {% assign found = false %}
+            {% assign nauthors = authors.size | minus: 1 %}
+
+            {% capture author_names %}
+              {% for author in authors %}
+                {% for team in site.team %}
+                  {% if author contains team.authorname %}
+                    {% if author != authors[nauthors] %}
+                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>,
+                    {% else %}
+                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>
+                    {% endif %}
+                    {% assign found = true %}
+                  {% endif %}
+                {% endfor %}
+
+                {% for collaborator in site.collaborations %}
+                  {% if author contains collaborator.authorname %}
+                    {% if author != authors[nauthors] %}
+                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>,
+                    {% else %}
+                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>
+                    {% endif %}
+                    {% assign found = true %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if found != true %}
+                  {% if author != authors[nauthors] %}
+                    {{ author }},
+                  {% else %}
+                    {{ author }}
+                  {% endif %}
+                {% endif %}
+                {% assign found = false %}
+              {% endfor %}
+            {% endcapture %}
+
+            <br><span style="font-size:0.85em; line-height: 0.5;"><i>{{ author_names }}</i></span><br>
+          {% endif %}
+
+          {% if post.collection == 'publications' %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
+          {% endif %}
+
+          {% if post.doi %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="https://doi.org/{{ post.doi }}"> <u>publication</u></a>  ) </cite></b></span><br>
+          {% elsif post.paperurl %}
+          <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(see <a href="{{ post.paperurl }}"> <u>publication</u></a>  ) </cite></b></span><br>
+          {% else %}
+          <br>
+          {% endif %}
+
+          {% if post.tagline %}
+          <span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.tagline }}</i></span><br>
+          {% endif %}
+
+    </td>
+    {% if post.doi %}
+      <td style="border: none;">
+      <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
+      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ post.doi }}"></div>
+      </td>
+    {% else %}
+      <td style="border: none;">
+      <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
+      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ 0 }}"></div>
+      </td>
+    {% endif %}
+
+    </tr>
+  </table>
+  </article>
+</div>
