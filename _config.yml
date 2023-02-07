@@ -33,7 +33,7 @@ words_per_minute         : 200
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  - name: positions
   - name: research
   - name: software
 
