@@ -9,6 +9,7 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 # Single Cell Multiomics
+
 | ![single_cell_overview](assets/images/single_cell_overview.png) |
 |:--:| 
 | Massively parallel high-throughput single cell sequencing can help to analyze thousands or even millions of cells in a single experiment. This approach helps to identify rare cell types and injured populations in kidney disease. | 
