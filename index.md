@@ -34,5 +34,5 @@ intro:
 
 # Join the Lab!
 
-The Wilson laboratory is always looking for talented researchers and collaborators to join our team! Please send us an email or find us on social media to connect with the lab. We also have a list of open positions on our website.
+The Wilson laboratory is always looking for talented researchers and collaborators to join our team! Please send us an email or find us on social media to connect with the lab. We also have a list of [open positions](/_pages/positions.md) on our website.
 
