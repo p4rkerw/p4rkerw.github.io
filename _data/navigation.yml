@@ -4,6 +4,8 @@ main:
      url: /about/
    - title: "Publications"
      url: /publications/
+   - title: "Positions"
+     url: /positions/
    #- title: "Lab Members"
    #  url: /labmembers/
    - title: "Software"
