@@ -10,6 +10,9 @@ intro:
 {% include feature_row id="intro" type="center" %}
 # Single Cell Multiomics
 
+<img src="assets/images/single_cell_overview.png" alt="drawing" width="100%"/>
+
+
 ![single_cell_overview](assets/images/single_cell_overview.png)
 
 
