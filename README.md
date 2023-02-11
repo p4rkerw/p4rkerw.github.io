@@ -3,6 +3,7 @@ Splash page layout (Landing homepage) - _layouts/splash.html </br>
 Splash page content (Landing homepage) - index.md
 Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately.
 
+# Notes for building and hosting website locally
 ```
 # to install ruby and jekyll with wsl2 on windows
 sudo apt-get remove ruby
