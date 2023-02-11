@@ -26,6 +26,8 @@ ruby -v
 
 gem install jekyll bundler
 rbenv rehash
+
+jekyll -v
 ```
 
 
