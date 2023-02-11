@@ -11,7 +11,7 @@ intro:
 # Single Cell Multiomics
 
 | ![single_cell_overview](assets/images/single_cell_overview.png) |
-|:--:| 
+|-:| 
 | Massively parallel high-throughput single cell sequencing can help to analyze thousands or even millions of cells in a single experiment. This approach helps to identify rare cell types and injured populations in kidney disease. | 
 
 <br/> 
@@ -19,7 +19,7 @@ intro:
 # Genetics in Single Cells
 
 | ![genetic_variation_overview](assets/images/genetic_variation_overview.png) |
-|:--:| 
+|-:| 
 | Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers. | 
 
 <br/> 
@@ -27,7 +27,7 @@ intro:
 # Spatial Profiling
 
 | ![visium_clusters](assets/images/visium_clusters.png) |
-|:--:| 
+|-:| 
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression. | 
 
 <br/> 
