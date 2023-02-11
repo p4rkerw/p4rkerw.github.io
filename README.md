@@ -34,15 +34,15 @@ jekyll -v
 # install github-pages gem
 gem install github-pages
 bundle update jekyll
-bundle install
 bundle add webrick
-
+bundle install
 ```
 
 # Host website locally
 ```
 git clone https://github.com/p4rkerw/p4rkerw.github.io && cd p4rkerw.github.io
 bundle exec jekyll serve
+# navigate browser to: http://localhost:4000/
 ```
 
 
