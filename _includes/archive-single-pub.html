@@ -92,12 +92,12 @@
     {% if post.doi %}
       <td style="border: none;">
       <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
-      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi="{{ post.doi }}"></div>
+      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ post.doi }}"></div>
       </td>
     {% else %}
       <td style="border: none;">
       <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
-      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi="{{ 0 }}"></div>
+      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ 0 }}"></div>
       </td>
     {% endif %}
 
