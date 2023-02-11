@@ -4,6 +4,7 @@ layout: home
 sitemap: false
 permalink: /news/
 author_profile: true
+classes: wide
 ---
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">parkercwilson (@parkercwilson) <a href="https://twitter.com/parkercwilson/status/1567248609774542850">[https://twitter.com/parkercwilson/status/1567248609774542850](https://twitter.com/parkercwilson/status/1567248609774542850) </a></p>&mdash; parkercwilson (@parkercwilson) <a href="https://twitter.com/parkercwilson/status/1567248609774542850"></a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
