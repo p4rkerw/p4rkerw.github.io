@@ -4,7 +4,7 @@ author_profile: true
 header:
   image: /assets/images/banner.png
 intro: 
-  - excerpt: 'There are an estimated 700 million people living with chronic kidney disease (CKD). The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for CKD.'
+  - excerpt: 'The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for chronic kidney disease.'
 ---
 
 {% include feature_row id="intro" type="center" %}
