@@ -5,6 +5,7 @@ header:
   image: /assets/images/banner.png
 intro: 
   - excerpt: 'The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for chronic kidney disease.'
+classes: wide
 ---
 
 {% include feature_row id="intro" type="center" %}
