@@ -81,7 +81,7 @@
           {% endif %}
 
           {% if post.collection == 'publications' %}
-          <span style="font-size:0.8em; line-height: 0.5;"><b>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
+          <span style="font-size:0.8em; line-height: 0.5;"><b><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
           {% endif %}
 
           {% if post.doi %}
