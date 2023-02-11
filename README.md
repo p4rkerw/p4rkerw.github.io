@@ -45,7 +45,7 @@ git clone https://github.com/p4rkerw/p4rkerw.github.io && cd p4rkerw.github.io
 bundle exec jekyll serve
 # navigate browser to: http://localhost:4000/
 ```
-# Alternatively you can preview individual file markdown builds in Rstudio (just not the entire website all at once)
+Alternatively you can preview individual file markdown builds in Rstudio (just not the entire website all at once)
 
 # Modify font sizes
 _sass/minimal-mistakes/_variables.css
