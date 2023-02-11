@@ -3,9 +3,10 @@ Splash page layout (Landing homepage) - _layouts/splash.html </br>
 Splash page content (Landing homepage) - index.md
 Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately.
 
-# Notes for building and hosting website locally
+# Install ruby / jekyll / bundler for building and hosting website locally
 ```
-# to install ruby and jekyll with wsl2 on windows
+# to install ruby and jekyll with wsl2 running ubuntu 20.04 on windows
+# note that the existing ruby version that's packaged with ubuntu has conflicts... here's the workaround
 sudo apt-get remove ruby
 
 cd $HOME
@@ -29,6 +30,19 @@ gem install jekyll bundler
 rbenv rehash
 
 jekyll -v
+
+# install github-pages gem
+gem install github-pages
+bundle update jekyll
+bundle install
+bundle add webrick
+
+```
+
+# Host website locally
+```
+git clone https://github.com/p4rkerw/p4rkerw.github.io && cd p4rkerw.github.io
+bundle exec jekyll serve
 ```
 
 
