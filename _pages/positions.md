@@ -4,6 +4,7 @@ layout: home
 sitemap: false
 permalink: /positions/
 author_profile: true
+classes: wide
 ---
 
 # Postdoctoral Fellow
