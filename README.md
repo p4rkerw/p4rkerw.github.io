@@ -45,6 +45,9 @@ bundle exec jekyll serve
 # navigate browser to: http://localhost:4000/
 ```
 
+# Modify font sizes
+_sass/minimal-mistakes/_variables.css
+splash page intro: type-size-6
 
 
 
