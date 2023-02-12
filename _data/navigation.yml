@@ -10,5 +10,5 @@ main:
    #  url: /labmembers/
    - title: "Software"
      url: /software/
-   - title: "News"
-     url: /news/
+   - title: "Posts"
+     url: /posts/
