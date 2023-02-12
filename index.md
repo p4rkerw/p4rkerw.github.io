@@ -38,6 +38,6 @@ feature_row:
 {% include feature_row %}
 
 
-# Join the Lab!
+# Join the lab!
 
 The Wilson laboratory is always looking for talented researchers and collaborators to join our team! Please send us an email or find us on social media to connect with the lab. We also have a list of [open positions](/_pages/positions.md) on our website.
