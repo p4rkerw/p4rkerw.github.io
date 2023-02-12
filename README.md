@@ -44,7 +44,7 @@ bundle add webrick
 bundle install
 ```
 
-# Host website locally
+# Host website locally (make sure to use http and not https)
 ```
 git clone https://github.com/p4rkerw/p4rkerw.github.io && cd p4rkerw.github.io
 bundle exec jekyll serve
