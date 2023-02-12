@@ -1,37 +1,39 @@
 ---
 layout: splash
-author_profile: true
+title: " "
+author_profile: false
 header:
-  image: /assets/images/banner.png
-intro: 
-  - excerpt: 'The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for chronic kidney disease.'
-classes: wide
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/banner.png
+  actions:
+    - label: "Learn More"
+      url: about
+excerpt: "The Wilson lab at the University of Pennsylvania uses cutting edge technologies like single cell sequencing and spatial profiling to develop new therapies for chronic kidney disease."
+
+feature_row:
+  - image_path: assets/images/single_cell_overview.png
+    title: "Single cell sequencing"
+    url: about
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: assets/images/genetic_variation_overview.png
+    title: "Genetics in single cells"
+    url: about
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: assets/images/visium_clusters.png
+    title: "Spatial profiling"
+    url: about
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
-{% include feature_row id="intro" type="center" %}
 
-# Single Cell Multiomics
 
-| ![single_cell_overview](assets/images/single_cell_overview.png) |
-| Massively parallel high-throughput single cell sequencing can help to analyze thousands or even millions of cells in a single experiment. This approach helps to identify rare cell types and injured populations in kidney disease.
-{: .notice--info}
+{% include feature_row %}
 
-<br/> 
-
-# Genetics in Single Cells
-
-| ![genetic_variation_overview](assets/images/genetic_variation_overview.png) |
-| Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers.
-{: .notice--info}
-
-<br/> 
-
-# Spatial Profiling
-
-| ![visium_clusters](assets/images/visium_clusters.png) |
-| Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression.
-{: .notice--info}
-
-<br/> 
 
 # Join the Lab!
 
