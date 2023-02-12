@@ -2,7 +2,7 @@
 title: "News"
 layout: home
 sitemap: false
-permalink: /news/
+permalink: /posts/
 author_profile: true
 classes: wide
 ---
