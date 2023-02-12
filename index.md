@@ -15,21 +15,21 @@ feature_row:
   - image_path: assets/images/single_cell_overview.png
     excerpt: "Analyze thousands or even millions of cells in a single experiment"
     title: "Single cell sequencing"
-    url: about
+    url: about/#single-cell-multiomics
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: assets/images/genetic_variation_overview.png
     excerpt: "Measure the effect of germline and somatic variation in single cells"
     title: "Genetics in single cells"
-    url: about
+    url: about/#genetics-in-single-cells
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: assets/images/visium_clusters.png
     excerpt: "Determine the location of injured cell types in the kidney"
     title: "Spatial profiling"
-    url: about
+    url: about/#spatial-profiling
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
