@@ -1,4 +1,7 @@
 # Parker's notes for updating the website:
+helpful style notes https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+# splash page layout
 Splash page layout (Landing homepage) - _layouts/splash.html </br>
 Splash page content (Landing homepage) - index.md
 Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately. Make sure the images are also approximately
