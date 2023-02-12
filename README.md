@@ -10,6 +10,9 @@ Splash page content (Landing homepage) - index.md
 Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately. Make sure the images are also approximately
 the same width and height in pixels
 
+# Modify navigation bar
+_data/navigation.yml
+
 # Install ruby / jekyll / bundler for building and hosting website locally
 ```
 # to install ruby and jekyll with wsl2 running ubuntu 20.04 on windows
