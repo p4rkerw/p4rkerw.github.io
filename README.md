@@ -1,5 +1,7 @@
 # Parker's notes for updating the website:
-helpful style notes https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+helpful style notes
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 # splash page layout
 Splash page layout (Landing homepage) - _layouts/splash.html </br>
