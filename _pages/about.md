@@ -16,15 +16,11 @@ Chronic kidney disease is characterized by worsening kidney function. Diabetes i
 | ![histology.png](/assets/images/histology.png) |
 | <b>Increased fibrosis in a patient with CKD. </b>
 
-
 Different cell types express different genes that determine their unique function. In the kidney, there are many cell types that work together to filter blood and produce urine in a structure called the nephron. Single cell RNA sequencing measures gene expression in every cell and this pattern can be used to determine cell type and location within the nephron. Single cell expression patterns change in acute kidney injury and chronic kidney disease and we can examine these patterns to find targetable pathways to prevent disease progression.   
-
-| ![umap.png](/assets/images/umap.png) |
-| <b>Single cell RNA sequencing in the kidney cortex - Cells are grouped by expression pattern. </b>
 
 # Single Cell Multiomics
 
-| ![single_cell_overview](assets/images/single_cell_overview.png) |
+| ![single_cell_overview](/assets/images/single_cell_overview.png) |
 | Massively parallel high-throughput single cell sequencing can help to analyze thousands or even millions of cells in a single experiment. This approach helps to identify rare cell types and injured populations in kidney disease.
 {: .notice--info}
 
@@ -32,7 +28,7 @@ Different cell types express different genes that determine their unique functio
 
 # Genetics in Single Cells
 
-| ![genetic_variation_overview](assets/images/genetic_variation_overview.png) |
+| ![genetic_variation_overview](/assets/images/genetic_variation_overview.png) |
 | Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers.
 {: .notice--info}
 
@@ -40,7 +36,7 @@ Different cell types express different genes that determine their unique functio
 
 # Spatial Profiling
 
-| ![visium_clusters](assets/images/visium_clusters.png) |
+| ![visium_clusters](/assets/images/visium_clusters.png) |
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression.
 {: .notice--info}
 
