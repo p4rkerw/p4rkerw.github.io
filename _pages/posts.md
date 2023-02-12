@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "Posts"
 layout: home
 sitemap: false
 permalink: /posts/
