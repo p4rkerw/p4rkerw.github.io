@@ -21,32 +21,25 @@ Chronic kidney disease is characterized by worsening kidney function. Diabetes i
 
 | ![histology.png](/assets/images/histology.png) |
 | <b>Increased fibrosis in a patient with CKD. </b>
-
-Different cell types express different genes that determine their unique function. In the kidney, there are many cell types that work together to filter blood and produce urine in a structure called the nephron. Single cell RNA sequencing measures gene expression in every cell and this pattern can be used to determine cell type and location within the nephron. Single cell expression patterns change in acute kidney injury and chronic kidney disease and we can examine these patterns to find targetable pathways to prevent disease progression.   
-
+ 
 # Single Cell Multiomics
+Different cell types express different genes that determine their unique function. In the kidney, there are many cell types that work together to filter blood and produce urine in a structure called the nephron. Single cell RNA sequencing measures gene expression in every cell and this pattern can be used to determine cell type and location within the nephron. Single cell expression patterns change in acute kidney injury and chronic kidney disease and we can examine these patterns to find targetable pathways to prevent disease progression.  
 
 | ![single_cell_overview](/assets/images/single_cell_overview.png) |
 | Massively parallel high-throughput single cell sequencing can help to analyze thousands or even millions of cells in a single experiment. This approach helps to identify rare cell types and injured populations in kidney disease.
 {: .notice--info}
 
-<br/> 
-
 # Genetics in Single Cells
+Genetic variation is the result of changes in the genetic code. These changes can be as small as a single base-pair or as large as an entire chromosome. We can detect genetic variants in our patient samples and ask whether these variants change expression in a specific cell type. Some of these variants may affect the function of genes that regulate kidney disease progression. The study of expression quantitative trait loci (eQTL), chromatin accessibility QTL (caQTL), and other quantitative trait loci is a rapidly-evolving field that may provide insight into why some patients with kidney disease progress more rapidly than others.
 
 | ![genetic_variation_overview](/assets/images/genetic_variation_overview.png) |
 | Single cell sequencing can be used to examine the effect of genetic variation on kidney disease. Single nucleotide variants can modify gene expression by altering the interactions between promoters and enhancers.
 {: .notice--info}
 
-<br/> 
-
 # Spatial Profiling
+Spatial profiling helps us to localize gene expression patterns in the kidney. Kidney disease is heterogeneous and doesn't affect every area of the kidney in the same way. These technologies can help us to find injured cell types in the kidney to learn how tissue injury relates to kidney architecture, immune cell infiltration, and intercellular signaling that promotes kidney disease progression.
 
 | ![visium_clusters](/assets/images/visium_clusters.png) |
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression.
 {: .notice--info}
-
-<br/> 
-
-
 
