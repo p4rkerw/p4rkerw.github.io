@@ -7,7 +7,7 @@ author_profile: true
 classes: wide
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.25"
   overlay_image: /assets/images/philadelphia_skyline.png
   caption: Philadelphia Skyline
 excerpt: "The Wilson lab is a collaborative group of physicians and scientists working to translate our research into precision medicines for patients with kidney disease."
