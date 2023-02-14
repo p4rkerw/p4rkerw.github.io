@@ -9,9 +9,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/stellar_chance.png
-  actions:
-    - label: "Learn More"
-      url: about
   caption: Stellar-Chance Laboratories
 excerpt: "The Wilson lab is a collaborative group of physicians and scientists working to translate our research into precision medicines for patients with kidney disease."
 ---
