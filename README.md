@@ -7,8 +7,7 @@ https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/
 # splash page layout
 Splash page layout (Landing homepage) - _layouts/splash.html </br>
 Splash page content (Landing homepage) - index.md
-Note: Images are exported in 300dpi. If images are exported in a lower resolution they will not scale appropriately. Make sure the images are also approximately
-the same width and height in pixels
+Note: Images should be approximately the same width for proper scaling. Export in lower resolution (< 300dpi) if there are issues with images loading slowly.
 
 # Modify navigation bar
 _data/navigation.yml
