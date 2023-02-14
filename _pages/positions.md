@@ -1,6 +1,6 @@
 ---
 title: "Positions"
-layout: home
+layout: single
 sitemap: false
 permalink: /positions/
 author_profile: true
