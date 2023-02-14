@@ -5,6 +5,15 @@ sitemap: false
 permalink: /about/
 author_profile: true
 classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/stellar_chance.png
+  actions:
+    - label: "Learn More"
+      url: about
+  caption: Stellar-Chance Laboratories
+excerpt: "The Wilson lab is a collaborative group of physicians and scientists working to translate our research into precision medicines for patients with kidney disease."
 ---
 
 The Wilson laboratory is located in the Stellar-Chance Laboratories building on the University of Pennsylvania campus in University City, Philadelphia, PA. Dr. Wilson is a faculty member in the Division of Diagnostic Innovation in the Department of Pathology and Laboratory Medicine in the Perelman School of Medicine. The Wilson laboratory uses single cell biology, spatial profiling, and computational biology as tools for investigating chronic kidney disease.
