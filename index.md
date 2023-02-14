@@ -13,23 +13,23 @@ excerpt: "The Wilson lab at the University of Pennsylvania uses cutting edge tec
 
 feature_row:
   - image_path: assets/images/single_cell_overview.png
-    excerpt: "Analyze thousands or even millions of cells in a single experiment"
+    excerpt: "We can analyze thousands or even millions of cells in a single experiment to ask how cell composition and signaling pathways change in disease"
     title: "Single cell sequencing"
-    url: about/#single-cell-multiomics
+    url: about
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: assets/images/genetic_variation_overview.png
-    excerpt: "Measure the effect of germline and somatic variation in single cells"
+    excerpt: "We can measure the effect of germline and somatic variation in single cells to ask how genetic background affects disease progression"
     title: "Genetics in single cells"
-    url: about/#genetics-in-single-cells
+    url: about
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: assets/images/visium_clusters.png
-    excerpt: "Determine the location of injured cell types in the kidney"
+    excerpt: "We can determine the location of injured cell types in the kidney and quantify changes in intercellular signaling"
     title: "Spatial profiling"
-    url: about/#spatial-profiling
+    url: about
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
