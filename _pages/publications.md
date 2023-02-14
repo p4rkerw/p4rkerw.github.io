@@ -3,10 +3,15 @@ layout: archive
 title: "Selected Publications"
 permalink: /publications/
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.25"
+  overlay_image: /assets/images/balloons.png
+  actions:
+    - label: "Search PubMed"
+      url: https://pubmed.ncbi.nlm.nih.gov/?term=parker+wilson
+excerpt: "The Wilson lab is committed to open science. We strive to make our manuscripts, data and analysis available to the research community."  
 ---
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
 {% include base_path %}
 
