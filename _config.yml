@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : ""
 name                     : "Dr. Parker C. Wilson MD, PhD"
 description              : ""
-url                      : "https://p4rkerw.github.io"
+url                      : "https://www.parkerwilsonlab.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/banner_square.png
