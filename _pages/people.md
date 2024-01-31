@@ -15,6 +15,6 @@ excerpt: "The Wilson lab is a dynamic community of physicans and scientists comm
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.people reversed %}
   {% include archive-single-pub.html %}
 {% endfor %}
