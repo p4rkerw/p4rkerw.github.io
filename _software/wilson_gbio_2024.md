@@ -6,7 +6,7 @@ venue: 'Genome Biology'
 authors: 'Parker C. Wilson'
 paperurl: https://pubmed.ncbi.nlm.nih.gov/38287344/
 repourl: https://github.com/p4rkerw/Wilson_GBio_2024
-doi: https://10.5281/zenodo.10463438
+doi: https://10.1186/s13059-024-03173-2
 tagline: 'Containerized workflow for single cell detection of loss of Y chromosome and other mosaic chromosomal alterations in chronic kidney disease'
 type: 'GitHub'
 ---
