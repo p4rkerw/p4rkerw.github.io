@@ -1,7 +1,6 @@
 ---
 title: "Lab Member"
-excerpt: <strong>Director</strong> <br/><img src='/assets/images/histology.png'>"
-collection: portfolio
+collection: people
 ---
 
-<a href="">Lab Member</a> is an assistant professor 
+Lab Member is an assistant professor 
