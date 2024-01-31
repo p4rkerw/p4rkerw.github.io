@@ -3,7 +3,7 @@ title: "Parker Wilson"
 collection: people
 date: 2023-01-03
 venue: 'PNAS'
-url: /assets/images/balloons.png
+image: /assets/images/balloons.png
 ---
 
 <p align= "justify">
