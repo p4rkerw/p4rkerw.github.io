@@ -10,11 +10,11 @@ header:
   actions:
     - label: "Search PubMed"
       url: https://pubmed.ncbi.nlm.nih.gov/?term=parker+wilson
-excerpt: "The Wilson lab is committed to open science. We strive to make our manuscripts, data and analysis available to the research community."  
+excerpt: "The Wilson lab is a dynamic community of physicans and scientists committed to open research."  
 ---
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single-pub.html %}
+{% for post in site.people reversed %}
+  {% include archive-single-person.html %}
 {% endfor %}
