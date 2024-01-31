@@ -241,7 +241,10 @@ collections:
     permalink: /:collection/:path/
   software:
     output: true
-    permalink: /:collection/:path/  
+    permalink: /:collection/:path/
+  people:
+    output: true
+    permalink: /:collection/:path/
 
 # Archives
 #  Type
