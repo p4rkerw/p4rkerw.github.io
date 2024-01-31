@@ -12,3 +12,9 @@ header:
   caption: Stellar-Chance Laboratories
 excerpt: "The Wilson lab is a collaborative group of physicians and scientists working to translate our research into precision medicines for patients with kidney disease."
 ---
+
+{% include base_path %}
+
+{% for post in site.people reversed %}
+  {% include archive-single-person.html %}
+{% endfor %}
