@@ -1,5 +1,3 @@
-{% include base_path %}
-
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -12,96 +10,21 @@
   {% assign title = post.title %}
 {% endif %}
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-  {% if post.tagline contains 'Paper, Corresponding author' %}
-  <table style="border:1px dotted black;">
-  {% elsif post.tagline contains 'Preprint, Corresponding author' %}
-  <table style="border:1px dotted black;">
-  {% else %}
-  <table style="border:1px dotted black;">
-  {% endif %}
-    <tr>
-        <td width="90%" style="border: none;">
-
-          <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
-            {% if post.link %}
-              <a href="{{ post.paperurl }}">{{ title }}</a>
-            {% else %}
-              <a href="{{ post.paperurl }}">{{ title }}</a>
-            {% endif %}
-            
-          </span>
-
-          {% if post.authors %}
-            {% assign authors = post.authors | split: ", " %}
-            {% assign found = false %}
-            {% assign nauthors = authors.size | minus: 1 %}
-
-            {% capture author_names %}
-              {% for author in authors %}
-                {% for team in site.team %}
-                  {% if author contains team.authorname %}
-                    {% if author != authors[nauthors] %}
-                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>,
-                    {% else %}
-                      <a href="{{ team.url }}">*<u>{{ author }}</u>*</a>
-                    {% endif %}
-                    {% assign found = true %}
-                  {% endif %}
-                {% endfor %}
-
-                {% for collaborator in site.collaborations %}
-                  {% if author contains collaborator.authorname %}
-                    {% if author != authors[nauthors] %}
-                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>,
-                    {% else %}
-                      <a href="{{ collaborator.url }}"><u>{{ author }}</u></a>
-                    {% endif %}
-                    {% assign found = true %}
-                  {% endif %}
-                {% endfor %}
-
-                {% if found != true %}
-                  {% if author != authors[nauthors] %}
-                    {{ author }},
-                  {% else %}
-                    {{ author }}
-                  {% endif %}
-                {% endif %}
-                {% assign found = false %}
-              {% endfor %}
-            {% endcapture %}
-
-            <br><span style="font-size:0.85em; line-height: 0.5;"><i>{{ author_names }}</i></span><br>
-          {% endif %}
-
-          {% if post.collection == 'publications' %}
-          <span style="font-size:0.8em; line-height: 0.5;"><b><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
-          {% endif %}
-
-          {% if post.tagline %}
-          <span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.tagline }}</i></span><br>
-          {% endif %}
-
-    </td>
-    {% if post.doi %}
-      <td style="border: none;">
-      <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
-      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ post.doi }}"></div>
-      </td>
-    {% else %}
-      <td style="border: none;">
-      <!-- <div data-badge-details="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-condensed="true" class="altmetric-embed"></div> -->
-      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi="{{ 0 }}"></div>
-      </td>
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
     {% endif %}
-
-    </tr>
-  </table>
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% include page__meta.html type=include.type %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
