@@ -13,6 +13,9 @@ Note: Headers will be resized depending on the length of the excerpt
 # Modify navigation bar
 _data/navigation.yml
 
+# to add additional collections associated with new items in nav bar
+update config.yml collections with new permalink
+
 # Install ruby / jekyll / bundler for building and hosting website locally
 ```
 # to install ruby and jekyll with wsl2 running ubuntu 20.04 on windows
