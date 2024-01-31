@@ -6,8 +6,8 @@ main:
      url: /publications/
    - title: "Positions"
      url: /positions/
-   #- title: "Lab Members"
-   #  url: /labmembers/
+   - title: "People"
+     url: /people/
    - title: "Software"
      url: /software/
    - title: "Posts"
