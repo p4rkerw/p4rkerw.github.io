@@ -34,7 +34,7 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: assets/images/digital_pcr_overview.png
-    excerpt: "We have developed digital PCR assays to quantify the somatic mosaicism in complex tissues"
+    excerpt: "We have developed digital PCR assays to quantify the abundance of chromosomal gains and losses in complex tissues"
     title: "Digital PCR and Somatic Mosaicism"
     url: /about/#somatic-mosaicism
     btn_label: "Read More"
