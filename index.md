@@ -33,10 +33,10 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: assets/images/visium_clusters.png
-    excerpt: "We can determine the location of injured cell types in the kidney and quantify changes in intercellular signaling"
-    title: "Spatial profiling"
-    url: /about/#spatial-profiling
+  - image_path: assets/images/digital_pcr_overview.png
+    excerpt: "We have developed digital PCR assays to quantify the somatic mosaicism in complex tissues"
+    title: "Digital PCR and Somatic Mosaicism"
+    url: /about/#somatic-mosaicism
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
