@@ -1,5 +1,5 @@
 ---
-title: "Gary Wang, BS"
+title: "Gary Wang, MS"
 collection: people
 date: 2023-09-14
 image: /assets/images/people/gary_wang_headshot.jpg
