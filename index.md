@@ -26,7 +26,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row:
+  - image_path: assets/images/visium_clusters.png
+    excerpt: "We can determine the location of injured cell types in the kidney and quantify changes in intercellular signaling"
+    title: "Spatial profiling"
+    url: /about/#spatial-profiling
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
   - image_path: assets/images/visium_clusters.png
     excerpt: "We can determine the location of injured cell types in the kidney and quantify changes in intercellular signaling"
     title: "Spatial profiling"
