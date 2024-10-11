@@ -25,7 +25,7 @@ url                      : "https://www.parkerwilsonlab.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/banner_square.png
-logo                     : /assets/images/wilson_lab_logo.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/wilson_lab_logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
