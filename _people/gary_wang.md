@@ -6,4 +6,4 @@ image: /assets/images/people/gary_wang_headshot.jpg
 ---
 
 <p align= "justify">
-Gary is a predoctoral candidate in Department of Bioengineering, School of Applied Science. He is pursuing his PhD in the Wilson Lab and is working on single-cell analysis of kidney disease.
+Gary is a predoctoral candidate in Department of Bioengineering. He is pursuing his PhD in the Wilson Lab.
