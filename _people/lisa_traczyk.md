@@ -1,5 +1,5 @@
 ---
-title: "Gary Wang, BS"
+title: "Lisa Traczyk, BS"
 collection: people
 date: 2023-09-11
 image: /assets/images/people/lisa_traczyk_headshot.jpg
