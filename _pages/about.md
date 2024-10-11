@@ -43,3 +43,14 @@ Spatial profiling helps us to localize gene expression patterns in the kidney. K
 | Spatial profiling can be used to localize gene expression in the kidney. The location and expression pattern of injured kidney cells can give insight into the signaling pathways that promote disease progression.
 {: .notice--info}
 
+# Somatic Mosaicism
+Somatic mosaicism results from the accumulation of DNA mutations over time. Some of these mutations can be as large as entire chromosome, leading to changes in hundreds or thousands of genes. We have developed digital PCR-based assays to quantify the relative ratio of chromosome copy number in complex tissues like blood and kidney. These assays can quantify the burden of somatic mosaicism and help us to understand which chromosomes are susceptible to somatic structural variation in aging and disease. 
+
+| ![digital_pcr_overview](/assets/images/digital_pcr_overview.png) |
+| Digital PCR can be used to quantify the burden of somatic mosaicism in the kidney. Chromosomal gain and loss can give us insight into the factors that promote disease progression.
+{: .notice--info}
+
+
+
+
+
