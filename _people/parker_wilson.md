@@ -2,7 +2,7 @@
 title: "Parker Wilson, MD, PhD"
 collection: people
 date: 2023-01-03
-image: /assets/images/people/parker_wilson_headshot.jpg
+image: /assets/images/people/parker_wilson_headshot.JPG
 ---
 
 <p align= "justify">
