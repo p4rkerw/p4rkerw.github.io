@@ -2,7 +2,7 @@
 title: "Sidney Martin, BS"
 collection: people
 date: 2025-08-01
-image: /assets/images/people/sidney_martin_headshot.jpg
+image: /assets/images/people/sidney_martin_headshot.JPG
 ---
 
 <p align= "justify">
