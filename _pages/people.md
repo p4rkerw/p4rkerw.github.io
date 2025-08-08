@@ -7,6 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.25"
   overlay_image: /assets/images/labphotos/wilsonlab_july_2025.PNG
+  height: 20%
 ---
 
 <style>
