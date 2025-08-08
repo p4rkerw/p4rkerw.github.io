@@ -7,6 +7,12 @@ header:
   overlay_image: /assets/images/labphotos/wilsonlab_july_2025.png
 ---
 
+<style>
+.page-title, .page-header h1 {
+  display: none;
+}
+</style>
+
 {% include base_path %}
 
 {% for post in site.people %}
