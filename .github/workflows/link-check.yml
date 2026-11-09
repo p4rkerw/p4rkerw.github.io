@@ -12,7 +12,7 @@ jobs:
   lychee:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Check links in site sources
         uses: lycheeverse/lychee-action@v2
         with:
@@ -20,10 +20,12 @@ jobs:
             --no-progress
             --max-concurrency 4
             --accept 200,203,206,403,429,999
-            --exclude-path _site
             --exclude '^https?://(www\.)?linkedin\.com'
             --exclude '^https?://(x|twitter)\.com'
             --exclude '^mailto:'
+            --exclude '^https?://(localhost|127\.0\.0\.1)'
             --exclude '^/'
-            './**/*.md' './_data/*.yml'
+            './_posts/*.md' './_pages/*.md' './_pages/*.html' './_people/*.md'
+            './_publications/*.md' './_software/*.md' './_data/*.yml'
+            './index.md' './README.md'
           fail: true
