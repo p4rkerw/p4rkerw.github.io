@@ -75,8 +75,8 @@ excerpt: "We study why some kidneys fail and others don't by reading injury, gen
   <img src="/assets/images/visium_clusters.png" alt="Spatial transcriptomics clusters">
   <div class="research-card__body">
     <h3 id="spatial-profiling">Spatial profiling</h3>
-    <p>Disease doesn't hit every part of the kidney equally. We use sequencing-based (Visium) and imaging-based (Xenium) spatial transcriptomics to locate injured cells and to map the fibrotic, pro-inflammatory microenvironments where injured proximal tubule, fibroblasts and macrophages meet. We also use these data to predict the intercellular signals that keep injury going. As renal pathologists, we pair this with histology and digital pathology, including stain normalization for whole-slide images.</p>
-    <p class="research-card__refs">Agraz et al. <em>IEEE OJEMB</em> 2024 · Verma &amp; Wilson <em>Am J Pathol</em> 2025</p>
+    <p>Disease doesn't hit every part of the kidney equally. We use sequencing-based (Visium) and imaging-based (Xenium) spatial transcriptomics to locate injured cells and to map the fibrotic, pro-inflammatory microenvironments where injured proximal tubule, fibroblasts and macrophages meet. We also use these data to predict the intercellular signals that keep injury going. As renal pathologists, we pair this with histology to connect molecular findings to what we see under the microscope.</p>
+    <p class="research-card__refs">Wilson et al. <em>Genome Biol</em> 2024 · Verma &amp; Wilson <em>Am J Pathol</em> 2025</p>
   </div>
 </article>
 
