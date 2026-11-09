@@ -1,20 +1,37 @@
-# Checks the site's links after each GitHub Pages deploy and once a week.
-# Root-relative links (/people/, /assets/...) are checked against the live site.
+# Checks the site's links on every push (after that commit's GitHub Pages deploy finishes)
+# and once a week. Root-relative links (/people/, /assets/...) are checked against the live site.
 name: Link check
 
 on:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types: [completed]
+  push:
+    branches: [master]
   schedule:
     - cron: "0 12 * * 1"   # Mondays 12:00 UTC
   workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
 
 jobs:
   lychee:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
+      - name: Wait for GitHub Pages deploy of this commit
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 30); do
+            s=$(gh api "repos/${{ github.repository }}/actions/runs?head_sha=${{ github.sha }}" \
+                  --jq '[.workflow_runs[] | select(.name=="pages build and deployment")][0].status // "none"')
+            echo "pages deploy: $s"
+            [ "$s" = "completed" ] && exit 0
+            sleep 20
+          done
+          echo "Timed out waiting for Pages deploy; checking anyway"
       - name: Check links in site sources
         id: lychee
         uses: lycheeverse/lychee-action@v2
