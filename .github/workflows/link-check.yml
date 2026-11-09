@@ -1,9 +1,11 @@
-# Checks the site's links on every push and once a week; opens no PRs, just reports.
+# Checks the site's links after each GitHub Pages deploy and once a week.
+# Root-relative links (/people/, /assets/...) are checked against the live site.
 name: Link check
 
 on:
-  push:
-    branches: [master]
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
   schedule:
     - cron: "0 12 * * 1"   # Mondays 12:00 UTC
   workflow_dispatch:
@@ -22,12 +24,13 @@ jobs:
           args: >-
             --no-progress
             --max-concurrency 4
+            --base-url https://www.parkerwilsonlab.com
             --accept 200,203,206,403,429,999
             --exclude '^https?://(www\.)?linkedin\.com'
             --exclude '^https?://(x|twitter)\.com'
             --exclude '^mailto:'
             --exclude '^https?://(localhost|127\.0\.0\.1)'
-            --exclude '^/'
+            --exclude '%7B%7B|\{\{'
             './_posts/*.md' './_pages/*.md' './_pages/*.html' './_people/*.md'
             './_publications/*.md' './_software/*.md' './_data/*.yml'
             './index.md' './README.md'
