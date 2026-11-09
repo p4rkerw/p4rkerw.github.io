@@ -1,0 +1,10 @@
+{% assign is_talk = false %}{% if post.categories contains "talks" %}{% assign is_talk = true %}{% endif %}
+<article class="card timeline__item{% unless is_talk %} timeline__item--news{% endunless %}" data-kind="{% if is_talk %}talk{% else %}news{% endif %}">
+  <div class="timeline__meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    {% if is_talk %}<span class="badge badge--talk">Talk</span>{% else %}<span class="badge">News</span>{% endif %}
+  </div>
+  <h3 class="timeline__title"><a href="{{ post.url | relative_url }}">{% if is_talk %}{{ post.talk_title }}{% else %}{{ post.title }}{% endif %}</a></h3>
+  {% if is_talk %}<p class="timeline__excerpt"><i class="fas fa-map-marker-alt"></i> {{ post.venue }}</p>
+  {% else %}<p class="timeline__excerpt">{{ post.excerpt | markdownify | strip_html | truncate: 180 }}</p>{% endif %}
+</article>

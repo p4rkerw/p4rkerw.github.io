@@ -1,0 +1,70 @@
+# NIH awards from NIH RePORTER (https://reporter.nih.gov), checked 2026-11-09.
+# status: active | completed. Update when awards start or end.
+nih:
+  - mechanism: R01
+    number: R01 DK148464
+    title: "DCLK1 isoform switching and proximal tubule injury in kidney disease"
+    years: "2026–2031"
+    role: "Principal Investigator"
+    sponsor: NIDDK
+    status: active
+    url: https://reporter.nih.gov/project-details/11426830
+  - mechanism: R03
+    number: R03 DK144130
+    title: "DCLK1 and regulation of the DNA damage response in proximal tubule injury"
+    years: "2025–2027"
+    role: "Principal Investigator"
+    sponsor: NIDDK
+    status: active
+    url: https://reporter.nih.gov/project-details/11212342
+  - mechanism: K08
+    number: K08 DK126847
+    title: "The Single Cell Landscape of Early Human Diabetic Nephropathy"
+    years: "2022–2026"
+    role: "Principal Investigator"
+    sponsor: NIDDK
+    status: active
+    url: https://reporter.nih.gov/project-details/11247967
+  - mechanism: U01
+    number: U01 DK112217
+    title: "Human Pancreas Analysis Program for Type 1 Diabetes (HPAP-T1D)"
+    years: "through 2029"
+    role: "Co-Investigator; Director, Core C (tissue processing and pathology)"
+    sponsor: NIDDK
+    status: active
+    url: https://reporter.nih.gov/project-details/11380992
+  - mechanism: U01
+    number: U01 DK123594
+    title: "Human Pancreas Analysis Program for Type 2 Diabetes (HPAP-T2D)"
+    years: "through 2029"
+    role: "Co-Investigator; Director, Core C (tissue processing and pathology)"
+    sponsor: NIDDK
+    status: active
+    url: https://reporter.nih.gov/project-details/11293431
+  - mechanism: R21
+    number: R21 DK142089
+    title: "Novel methods for detection of mosaic chromosomal alterations"
+    years: "2024–2026"
+    role: "Multiple PI (with Nancy R. Zhang)"
+    sponsor: NIDDK
+    status: completed
+    url: https://reporter.nih.gov/project-details/11184492
+  - mechanism: F30
+    number: F30 DK083208
+    title: "Mechanisms of Diabetic Renal Damage: Role of the Kinin Receptors"
+    years: "2011–2013"
+    role: "Principal Investigator (MD/PhD fellowship, MUSC)"
+    sponsor: NIDDK
+    status: completed
+    url: https://reporter.nih.gov/project-details/8324065
+other:
+  - name: "George M. O'Brien Kidney Resource Alliance (OKRA) Opportunity Pool"
+    detail: "One of six labs nationally, 2024"
+    icon: fa-network-wired
+  - name: "Penn Diabetes Research Center Pilot & Feasibility Grant"
+    detail: "2024"
+    icon: fa-seedling
+honors:
+  - name: "ASCI Young Physician-Scientist Award"
+    detail: "American Society for Clinical Investigation, 2023"
+    icon: fa-award

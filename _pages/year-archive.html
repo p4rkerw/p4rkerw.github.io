@@ -1,35 +1,49 @@
 ---
-title: "Posts"
+title: "News & Talks"
 layout: archive
 sitemap: false
 permalink: /year-archive/
-author_profile: true
+author_profile: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.25"
+  overlay_filter: "0.35"
   overlay_image: /assets/images/glass_sculpture.png
-excerpt: "The Wilson lab is always on the move. Catch up with us as we engage with the research community. "
+excerpt: "The Wilson lab is always on the move. Catch up with us as we engage with the research community."
 classes: wide
 ---
 
-<ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-  {% for year in postsInYear %}
-    <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> 
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="filter-bar" role="group" aria-label="Filter posts">
+  <button type="button" class="is-active" data-filter="all">All</button>
+  <button type="button" data-filter="news">News</button>
+  <button type="button" data-filter="talk">Talks</button>
+</div>
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
+<div class="timeline">
+{% assign posts = site.posts | where_exp: "item", "item.hidden != true" %}
+{% assign byyear = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for y in byyear %}
+  <div class="timeline__group">
+  <h2 class="timeline__year" id="{{ y.name }}">{{ y.name }}</h2>
+  {% for post in y.items %}{% include timeline-item.html %}{% endfor %}
+  </div>
 {% endfor %}
+</div>
+
+<script>
+(function () {
+  var btns = document.querySelectorAll('.filter-bar button');
+  function apply(kind) {
+    document.querySelectorAll('.timeline__item').forEach(function (el) {
+      el.style.display = (kind === 'all' || el.dataset.kind === kind) ? '' : 'none';
+    });
+    document.querySelectorAll('.timeline__group').forEach(function (g) {
+      var any = Array.prototype.some.call(g.querySelectorAll('.timeline__item'), function (el) { return el.style.display !== 'none'; });
+      g.style.display = any ? '' : 'none';
+    });
+    btns.forEach(function (b) { b.classList.toggle('is-active', b.dataset.filter === kind); });
+  }
+  btns.forEach(function (b) { b.addEventListener('click', function () { apply(b.dataset.filter); history.replaceState(null, '', '#' + b.dataset.filter); }); });
+  var h = location.hash.replace('#', '');
+  if (h === 'talk' || h === 'news') apply(h);
+})();
+</script>

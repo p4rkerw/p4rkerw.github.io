@@ -1,0 +1,11 @@
+{% assign p = include.person %}
+<article class="card person-card{% if include.variant %} person-card--{{ include.variant }}{% endif %}" itemscope itemtype="https://schema.org/Person">
+  {% if p.image %}<img class="person-card__photo" src="{{ p.image | relative_url }}" alt="{{ p.title }}" loading="lazy">{% endif %}
+  <div>
+    <h3 class="person-card__name" itemprop="name">{{ p.title }}</h3>
+    {% if p.role %}<div class="person-card__role" itemprop="jobTitle">{{ p.role }}</div>{% endif %}
+    {% if p.now %}<div class="person-card__now"><i class="fas fa-location-arrow"></i> Now: {{ p.now }}</div>{% endif %}
+    <div class="person-card__bio">{{ p.content | strip_html | strip | truncate: 600 }}</div>
+    {% if p.linkedin and p.linkedin != "" %}<div class="person-card__links"><a href="{{ p.linkedin }}" title="{{ p.title }} on LinkedIn" itemprop="sameAs" rel="noopener"><i class="fab fa-linkedin"></i><span class="sr-only">LinkedIn</span></a></div>{% endif %}
+  </div>
+</article>

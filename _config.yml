@@ -123,9 +123,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/parkercwilson"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/parkercwilson"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/p4rkerw"
@@ -133,9 +133,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/parkercwilson
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: https://x.com/parkercwilson
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/p4rkerw
@@ -296,3 +296,23 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _publications, _software, _people
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: false

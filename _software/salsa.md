@@ -4,9 +4,9 @@ collection: software
 date: 2022-09-06
 venue: 'Nature Communications'
 authors: 'Parker C. Wilson'
-paperurl: https://pubmed.ncbi.nlm.nih.gov/31506348/
+paperurl: https://pubmed.ncbi.nlm.nih.gov/36068241/
 repourl: https://github.com/p4rkerw/SALSA
-doi: https://doi.org/10.1038/s41467-022-32972-z
+doi: 10.1038/s41467-022-32972-z
 tagline: 'SALSA is a workflow for genotyping, phasing, mapping bias correction, and single cell allele-specific counting of single cell RNA and ATAC datasets'
 type: 'GitHub'
 ---
