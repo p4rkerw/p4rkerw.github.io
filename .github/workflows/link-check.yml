@@ -1,0 +1,29 @@
+# Checks the site's links on every push and once a week; opens no PRs, just reports.
+name: Link check
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "0 12 * * 1"   # Mondays 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in site sources
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --accept 200,203,206,403,429,999
+            --exclude-path _site
+            --exclude '^https?://(www\.)?linkedin\.com'
+            --exclude '^https?://(x|twitter)\.com'
+            --exclude '^mailto:'
+            --exclude '^/'
+            './**/*.md' './_data/*.yml'
+          fail: true

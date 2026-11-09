@@ -339,3 +339,22 @@ Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT 
 Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
 Copyright (c) 2018 Oliver Nightingale.
 Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## Running and publishing the site
+
+Preview locally (WSL):
+
+    PAGES_REPO_NWO=p4rkerw/p4rkerw.github.io bundle exec jekyll serve --livereload --force_polling
+
+then open http://localhost:4000. Publish by committing and running `git push origin master`;
+GitHub Pages rebuilds the live site in about a minute.
+
+Where things live:
+
+- People: `_people/*.md` (front matter `status: pi|current|alumni`, `order`, `role`, `now`, `linkedin`, `image`)
+- Publications / software: `_publications/*.md`, `_software/*.md`
+- News and talks: `_posts/` (talks use `categories: [talks]` plus `venue` and `talk_title`)
+- Grants: `_data/grants.yml`; datasets: `_data/datasets.yml`; pre-2023 talk counts: `_data/talks_archive.yml`
+- Styling: `assets/css/lab.css`
+- Analytics: set `analytics.goatcounter` in `_config.yml` to your GoatCounter code
+- A link checker runs on every push and weekly (Actions tab, "Link check")

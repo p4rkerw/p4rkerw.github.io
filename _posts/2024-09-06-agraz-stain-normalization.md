@@ -1,7 +1,7 @@
 ---
 title: 'Publication: Agraz et al. publish whole slide image normalization algorithms for digital pathology'
-date: 2024-01-29
-permalink: /posts/2024/01/blog-post-1/
+date: 2024-09-06
+permalink: /posts/2024/09/agraz-stain-normalization/
 tags:
   - news
   - publications

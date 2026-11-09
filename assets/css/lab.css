@@ -307,3 +307,21 @@ figcaption, .lab-photo figcaption { font-family: inherit; }
 .person-card__links a { color: #0a66c2; font-size: 1.35rem; }
 .person-card__links a:hover { color: var(--navy); }
 .person-card--pi .person-card__links { text-align: left; }
+
+/* ---------- Data & resources ---------- */
+.data-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.1rem; }
+.data-card { padding: 1.15rem 1.25rem; display: flex; flex-direction: column; }
+.data-card__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
+.data-card__acc { font-weight: 800; font-size: 1.05rem; color: var(--navy) !important; text-decoration: none; font-variant-numeric: tabular-nums; }
+.data-card__title { font-size: .98rem; font-weight: 700; line-height: 1.35; margin: 0 0 .35rem; }
+.data-card__data { font-size: .84rem; color: var(--muted); margin: 0 0 .4rem; }
+.data-card__paper { font-size: .8rem; color: var(--ink); margin: 0 0 .8rem; flex: 1; }
+.pill-list a { text-decoration: none; }
+
+/* ---------- Site search results: text only, tidy titles ---------- */
+.search-content .archive__item-teaser { display: none !important; }
+.search-content .archive__item-title { font-size: 1.05rem; margin-top: 1.2rem; }
+.search-content .archive__item-title a { text-decoration: none; color: var(--ink); }
+.search-content .archive__item-title a:hover { color: var(--navy-2); }
+.search-content .archive__item-excerpt { color: var(--muted); font-size: .9rem; }
+.search-content .search-input { font-family: inherit; font-weight: 700; }

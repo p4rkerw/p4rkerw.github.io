@@ -1,0 +1,15 @@
+{% assign d = include.d %}
+<article class="card data-card">
+  <div class="data-card__head">
+    <a class="data-card__acc" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ d.accession }}">{{ d.accession }}</a>
+    <span><span class="badge badge--accent">{{ d.organism }}</span> <span class="badge">{{ d.year }}</span></span>
+  </div>
+  <h3 class="data-card__title">{{ d.title }}</h3>
+  <p class="data-card__data">{{ d.data }}</p>
+  <p class="data-card__paper"><i class="fas fa-file-alt"></i> {{ d.paper }}</p>
+  <div class="pub-card__links">
+    <a class="btn--ghost" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ d.accession }}"><i class="fas fa-database"></i> GEO</a>
+    <a class="btn--ghost" href="https://pubmed.ncbi.nlm.nih.gov/{{ d.pmid }}/"><i class="fas fa-file-alt"></i> Paper</a>
+    {% if d.code %}<a class="btn--ghost" href="{{ d.code }}"><i class="fab fa-github"></i> Code</a>{% endif %}
+  </div>
+</article>
